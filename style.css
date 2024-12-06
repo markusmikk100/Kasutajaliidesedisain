@@ -41,7 +41,14 @@ body {
     font-family: 'Parkinsans', sans-serif;
     margin-top: 30px; /* Adjust the space from the top navigation */
     text-align: center;
-    font-size: 65px;
+    font-size: 85px;
+}
+ 
+.first2-text {
+    font-weight: bold;
+    font-family: 'Parkinsans', sans-serif;
+    text-align: center;
+    font-size: 85px;
 }
  
 .button {
@@ -57,3 +64,10 @@ body {
     background-color: #012864;
     color: white;
 }
+
+.input {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
