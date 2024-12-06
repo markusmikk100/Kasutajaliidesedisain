@@ -4,52 +4,36 @@ body {
     background-color: #012864;
     color: black;
     font-family: "Inter", sans-serif;
-    height: 100vh;  /* Ensure the body takes full viewport height */
-    margin: 0;  /* Remove default body margin */
-}
- 
-.d-flex {
-    display: flex;
-}
- 
-.justify-content-center {
-    justify-content: center;  /* Horizontally center the container */
-}
- 
-.align-items-center {
-    align-items: center;  /* Vertically center the container */
-}
- 
-.min-vh-100 {
-    min-height: 100vh;  /* Ensure the container takes at least 100% of the viewport height */
-}
- 
-.white-container {
-    background-color:   #fff;  /* White background for the container */
-    padding: 25px;
-    border-radius: 8px;  /* Optional: round corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: subtle shadow for the container */
-    width: 85%;  /* Set a max-width for the white container, adjust as needed */
-    max-width: 2500px;  /* Optional: Set a max-width for better responsiveness */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;  /* Align all content from the top */
-    height: 80vh;  /* Give the container a fixed height (adjustable) */
+    height: 100%;  /* Ensure both html and body take full viewport height */
+    margin: 0;     /* Remove default margins */
+    overflow: hidden;  /* Prevent scrolling */
 }
  
 .top-nav {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;  /* Align the items at the top of the container */
-    padding-bottom: 15px;
-    border-bottom: 1px solid #753d3d;
+    justify-content: center; /* Align the items close to each other */
+    margin-top: 3vh; /* Adjust this as needed to control the space from the top */
 }
  
+ 
+.white-container {
+    background-color:   #fff;  /* White background for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: subtle shadow for the container */
+    width: 100%;  /* Set a max-width for the white container, adjust as needed */
+    max-width: 100%;  /* Optional: Set a max-width for better responsiveness */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  /* Align all content from the top */
+    height: 93vh;  /* Give the container a fixed height (adjustable) */
+}
+
 .top-item {
-    flex: 1;
     text-align: center;
-    font-size: 14px;
-    color: #333;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 500;
+    padding-right: 10%
+    
 }
  
 .first-text {
@@ -57,11 +41,19 @@ body {
     font-family: 'Parkinsans', sans-serif;
     margin-top: 30px; /* Adjust the space from the top navigation */
     text-align: center;
+    font-size: 65px;
 }
  
-.second-text {
-    font-weight: normal;
+.button {
+    font-weight: 510;
+    font-size: 30px;
+    border-radius: 10px;
     font-family: 'Parkinsans', sans-serif;
-    margin-top: 20px;  /* Adjust the space from the heading */
+    margin-top: 35vb;  /* Adjust the space from the heading */
     text-align: center;
+    align-self: center;
+    height: 5.5vb;
+    width: 50vb;
+    background-color: #012864;
+    color: white;
 }
