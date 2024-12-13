@@ -1,30 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
- 
 body {
     background-color: #012864;
     color: black;
     font-family: "Inter", sans-serif;
-    height: 100%;  /* Ensure both html and body take full viewport height */
-    margin: 0;     /* Remove default margins */
-    overflow: hidden;  /* Prevent scrolling */
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
 }
- 
+
 .top-nav {
     display: flex;
-    justify-content: center; /* Align the items close to each other */
-    margin-top: 3vh; /* Adjust this as needed to control the space from the top */
+    justify-content: center;
+    margin-top: 3vh;
 }
- 
- 
+
 .white-container {
-    background-color:   #fff;  /* White background for the container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: subtle shadow for the container */
-    width: 100%;  /* Set a max-width for the white container, adjust as needed */
-    max-width: 100%;  /* Optional: Set a max-width for better responsiveness */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;  /* Align all content from the top */
-    height: 93vh;  /* Give the container a fixed height (adjustable) */
+    justify-content: flex-start;
+    height: 93vh;
 }
 
 .top-item {
@@ -32,42 +29,61 @@ body {
     font-size: 25px;
     color: #ffffff;
     font-weight: 500;
-    padding-right: 10%
-    
+    padding-right: 10%;
 }
- 
+
 .first-text {
     font-weight: bold;
     font-family: 'Parkinsans', sans-serif;
-    margin-top: 30px; /* Adjust the space from the top navigation */
+    margin-top: 30px;
     text-align: center;
     font-size: 85px;
 }
- 
+
 .first2-text {
     font-weight: bold;
     font-family: 'Parkinsans', sans-serif;
     text-align: center;
     font-size: 85px;
 }
- 
+
 .button {
     font-weight: 510;
     font-size: 30px;
     border-radius: 10px;
     font-family: 'Parkinsans', sans-serif;
-    margin-top: 35vb;  /* Adjust the space from the heading */
     text-align: center;
     align-self: center;
     height: 5.5vb;
-    width: 50vb;
+    width: 30vb;
     background-color: #012864;
     color: white;
+    margin-top: 20px;
+}
+
+.httpstext {
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: 'Parkinsans', sans-serif;
+    font-size: 25px;
+    transform: translateX(-35px) translateY(3px);
+
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .input {
-    width: 30%;
+    width: 40vb;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin-left: 10px;
     box-sizing: border-box;
-  }
+    font-size: 18px;
+    background-color: rgb(240, 240, 240);
+    border: 2.5px solid #012864;
+    transform: translateX(-50px);
+}
